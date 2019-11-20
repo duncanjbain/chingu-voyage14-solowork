@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0em;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-top, #nav-top ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
