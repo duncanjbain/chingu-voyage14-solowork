@@ -46,8 +46,20 @@ h1, h2, h3, h4, h5, h6, p {
   color: #ff5252;
 }
 
+.nav-fonts {
+  border: 1px solid #dadce0;
+  border-radius: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .fonts-card-container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.fonts-card {
+  width: 35%;
 }
