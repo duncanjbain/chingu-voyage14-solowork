@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Roboto",sans-serif;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -15,9 +19,23 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
+.dark-logo {
+  color: #6e6e6e;
+}
+
 #nav-top, #nav-top ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
+}
+
+.nav-top-link {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.initial-link {
+  color: #ff5252;
+  
 }
