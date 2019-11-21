@@ -23,11 +23,19 @@ h1, h2, h3, h4, h5, h6, p {
   color: #6e6e6e;
 }
 
-#nav-top, #nav-top ul {
+.light-logo {
+  color: #666666;
+}
+
+.nav-top, .nav-top ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
+}
+
+.nav-top li {
+  margin-left: 32px;
 }
 
 .nav-top-link {
@@ -37,5 +45,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .initial-link {
   color: #ff5252;
-  
+}
+
+.fonts-card-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
