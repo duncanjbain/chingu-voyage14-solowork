@@ -59,6 +59,12 @@ h1, h2, h3, h4, h5, h6, p {
   color: #ff5252;
 }
 
+.nav-top-link a:visited, a:active, a:hover, a {
+  color: rgba(0,0,0,.6);
+  font-weight: 500;
+  font-size: 14px;
+}
+
 .main-wrapper {
   padding: 20px 60px 48px;
 }
@@ -87,6 +93,15 @@ input[type='text'] {
   font-family: "Roboto";
 }
 
+select {
+  border: 0;
+  padding-left: 12px;
+  background: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  font-size: 14px;
+}
 
 
 .fonts-card-container {
@@ -95,17 +110,21 @@ input[type='text'] {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 64px;
+  align-items: flex-start;
+  flex-basis: 0;
 }
 
 .fonts-card {
   width: 35%;
   display: flex;
-  align-items: left;
   flex-direction: column;
   border-top: 1px solid grey;
+  margin-bottom: 5%;
 }
+
 .fonts-card-header {
   cursor: pointer;
+  margin-top: 5%;
 }
 
 .fonts-card h1,h2 {
@@ -118,6 +137,10 @@ input[type='text'] {
 .fonts-card h2 {
   color: rgba(0,0,0,.6);
   margin-bottom: 4px;
+}
+
+.fonts-card i {
+  float: right;
 }
 
 
@@ -146,7 +169,12 @@ input[type='text'] {
   font-size: 40px;
 }
 
-#robot-exampke {
+#roboto-example {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
