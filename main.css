@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -68,6 +69,7 @@ input[type='search'] {
   height: 100%;
   font-size: 15px;
   white-space: nowrap;
+  font-family: "Roboto";
 }
 
 input[type='text'] {
@@ -75,6 +77,7 @@ input[type='text'] {
   height: 100%;
   font-size: 15px;
   white-space: nowrap;
+  font-family: "Roboto";
 }
 
 
@@ -87,4 +90,7 @@ input[type='text'] {
 
 .fonts-card {
   width: 35%;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
 }
