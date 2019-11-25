@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: "Roboto",sans-serif;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -27,6 +27,11 @@ h1, h2, h3, h4, h5, h6, p {
   color: #666666;
 }
 
+.nav-top {
+  height: 64px;
+  border-bottom: 1px solid #dadce0;
+}
+
 .nav-top, .nav-top ul {
   display: flex;
   align-items: center;
@@ -46,13 +51,33 @@ h1, h2, h3, h4, h5, h6, p {
   color: #ff5252;
 }
 
+.main-wrapper {
+  padding: 20px 60px 48px;
+}
 .nav-fonts {
   border: 1px solid #dadce0;
   border-radius: 48px;
+  height: 48px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
+
+input[type='search'] {
+  border: none;
+  height: 100%;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+input[type='text'] {
+  border: none;
+  height: 100%;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+
 
 .fonts-card-container {
   display: flex;
