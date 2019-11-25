@@ -6,7 +6,7 @@
 
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -93,4 +93,29 @@ input[type='text'] {
   display: flex;
   align-items: left;
   flex-direction: column;
+}
+
+
+#baskerville-example {
+  font-family: 'Baskervville', serif;
+}
+
+#open-sans-example {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#lato-example {
+  font-family: 'Lato', sans-serif;
+}
+
+#calistoga-example {
+  font-family: 'Calistoga', cursive;
+}
+
+#montserrat-example {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#robot-exampke {
+  font-family: 'Roboto', sans-serif;
 }
