@@ -17,6 +17,9 @@ What dependencies have been used, can be seen below.
  - [Font Awesome](https://fontawesome.com/)
  - [Google Fonts](https://fonts.google.com)
 
+## Author
+- [Duncan Bain](https://github.com/duncanjbain)
+
 ## Licensing
 This webpage is licensed under the MIT license.
 
