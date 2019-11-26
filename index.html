@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Google Fonts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <script src="https://kit.fontawesome.com/7ef004dc0f.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Baskervville|Calistoga|Lato|Montserrat|Open+Sans|Roboto&display=swap" rel="stylesheet">
@@ -47,14 +48,12 @@
         <option value="12">12</option>
         <option value="14">14</option>
         <option value="20">20</option>
-        <option value="24">24</option>
+        <option value="24" selected="selected">24</option>
         <option value="32">32</option>
-        <option value="40" selected="selected">40</option>
+        <option value="40">40</option>
         <option value="64">64</option>
-        <option value="96">96</option>
-        <option value="120">120</option>
       </select>
-      <input type="range" name="font-size-slider" id="font-size-slider" min="8" max="300" value="40" oninput="updateFontSizeFromField(this)"/>
+      <input type="range" name="font-size-slider" id="font-size-slider" min="8" max="64" value="24" oninput="updateFontSizeFromField(this)"/>
     </div>
     <div id="modifier-icon-form">
       <i class="fas fa-fill-drip"></i>
