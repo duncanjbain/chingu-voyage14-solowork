@@ -25,7 +25,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .light-logo {
-  color: #666666;
+  color: grey;
+  font-weight: 200;
 }
 
 .nav-header {
@@ -38,6 +39,9 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: 5%;
 }
 
+.nav-top h1 {
+  font-weight: 800;
+}
 
 
 .nav-top, .nav-top ul {
