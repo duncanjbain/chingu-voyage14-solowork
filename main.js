@@ -22,8 +22,7 @@ function updateFontExampleText(newExampleText) {
     }
     else {
         for (var i = 0; i < elementsToUpdateFontSize.length; i++) {
-        elementsToUpdateFontSize[i].textContent = newExampleText.value;
+            elementsToUpdateFontSize[i].textContent = newExampleText.value;
         }
-
     }
 }
