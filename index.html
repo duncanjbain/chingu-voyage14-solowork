@@ -42,7 +42,7 @@
       <input type="text" name="custom-text" id="custom-text" placeholder="Type something" />
     </div>
     <div id="font-size-form">
-      <select name="update-font-size" id="update-font-size">
+      <select name="update-font-size" id="update-font-size" onchange="updateFontSizeFromField(this)">
         <option value="8">8</option>
         <option value="12">12</option>
         <option value="14">14</option>
@@ -54,7 +54,7 @@
         <option value="96">96</option>
         <option value="120">120</option>
       </select>
-      <input type="range" name="font-size-slider" id="font-size-slider" min="8" max="300" value="40" />
+      <input type="range" name="font-size-slider" id="font-size-slider" min="8" max="300" value="40" oninput="updateFontSizeFromField(this)"/>
     </div>
     <div id="modifier-icon-form">
       <i class="fas fa-fill-drip"></i>
