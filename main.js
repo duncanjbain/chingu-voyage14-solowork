@@ -10,7 +10,7 @@ function updateFontSizeFromField(newFontSize) {
 function resetFontExample() {
     for (var i = 0; i < elementsToUpdateFontSize.length; i++) {
         elementsToUpdateFontSize[i].style.fontSize = "40px";
-        elementsToUpdateFontSize[i].textContent = originalElements[i].textContent;
+        elementsToUpdateFontSize[i].textContent = "A shining crescent far beneath the flying vessel.";
     }
 }
 
