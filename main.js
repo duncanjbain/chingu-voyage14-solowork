@@ -15,7 +15,15 @@ function resetFontExample() {
 }
 
 function updateFontExampleText(newExampleText) {
-    for (var i = 0; i < elementsToUpdateFontSize.length; i++) {
+    if (newExampleText.value === "") {
+        for (var i = 0; i < elementsToUpdateFontSize.length; i++) {
+            elementsToUpdateFontSize[i].textContent = "A shining crescent far beneath the flying vessel.";
+        }
+    }
+    else {
+        for (var i = 0; i < elementsToUpdateFontSize.length; i++) {
         elementsToUpdateFontSize[i].textContent = newExampleText.value;
+        }
+
     }
 }
