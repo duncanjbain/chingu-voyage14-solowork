@@ -1,5 +1,4 @@
 let elementsToUpdateFontSize = document.getElementsByClassName('fonts-card-example');
-let originalElements = document.getElementsByClassName('fonts-card-example');
 
 function updateFontSizeFromField(newFontSize) {
     for (var i = 0; i < elementsToUpdateFontSize.length; i++) {
